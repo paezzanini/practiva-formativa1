@@ -26,6 +26,8 @@
                 password: document.getElementById('password').value
             };
 
+            console.log("Datos a enviar:", datos);
+
             fetch('procesar.php', {
                 method: 'POST',
                 headers: {
